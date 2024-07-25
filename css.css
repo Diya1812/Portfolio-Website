@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #5a4747;
+}
+
+header {
+    color: #080707;
+    padding: 1rem 0;
+    text-align: center;
+    background-size: cover;
+    background-color: rgba(245, 245, 220, 0.84);
+    height: 100vh;
+    position: center;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    font-family:"Work Sans";
+    font-size: 20px;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: #151111;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: rgba(245, 245, 220, 0.84);
+    border-radius: 8px;
+    color: #0f0d0d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Sans Serif';
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+.hello{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+.border{
+    border-width: 3px;
+    border-style: dashed;
+    padding: 20px;
+    width: 50vw;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
